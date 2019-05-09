@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="My Test Suite" parallel="tests" thread-count="2">
+    <test name="test group 1" preserve-order="true">  
+    	<parameter name="browserRemote" value="chromeRemote"/>	
+        <classes>
+        	<class name="com.mychallenge.uitests.FillOutForm"/>	     		
+        </classes>
+    </test>
+    <test name="test group 2" preserve-order="true">  
+    	<parameter name="browserRemote" value="chromeRemote"/>	
+        <classes>
+        	<class name="com.mychallenge.uitests.SelectItemFromPullDownMenu"/>     		
+        </classes>
+    </test>
+    <test name="test group 3" preserve-order="true">  
+    	<parameter name="browserRemote" value="chromeRemote"/>	
+        <classes>
+        	<class name="com.mychallenge.uitests.GetDataFromMarginFeesTable"/>  		
+        </classes>
+    </test>
+  </suite>

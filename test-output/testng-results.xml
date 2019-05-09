@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10025" started-at="2019-05-09T13:04:43Z" finished-at="2019-05-09T13:04:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10025" started-at="2019-05-09T13:04:43Z" finished-at="2019-05-09T13:04:53Z">
+      <class name="com.mychallenge.uitests.GetDataFromMarginFeesTable">
+        <test-method status="PASS" signature="beforSuite()[pri:0, instance:com.mychallenge.uitests.GetDataFromMarginFeesTable@4566e5bd]" name="beforSuite" is-config="true" duration-ms="24" started-at="2019-05-09T13:04:43Z" finished-at="2019-05-09T13:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforSuite -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.mychallenge.uitests.GetDataFromMarginFeesTable@4566e5bd]" name="beforeMethod" is-config="true" duration-ms="6679" started-at="2019-05-09T13:04:43Z" finished-at="2019-05-09T13:04:50Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyMarginFeesTableBaseCurrency(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mychallenge.uitests.GetDataFromMarginFeesTable@4566e5bd]" name="verifyMarginFeesTableBaseCurrency" duration-ms="2503" started-at="2019-05-09T13:04:50Z" description="Test to validate that user can navigate to the Fee Schedule page, and retrieve data from the Margin Fees table" data-provider="dataProvider" finished-at="2019-05-09T13:04:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[XBT (Bitcoin)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[USDT (Tether)]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[BCH (Bitcoin Cash)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ETH (Ethereum)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ETC (Ethereum Classic)]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[REP (Augur)]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[XMR (Monero)]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[XRP (Ripple)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMarginFeesTableBaseCurrency -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mychallenge.uitests.GetDataFromMarginFeesTable@4566e5bd]" name="afterMethod" is-config="true" duration-ms="744" started-at="2019-05-09T13:04:52Z" finished-at="2019-05-09T13:04:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMarginFeesTableBaseCurrency status=SUCCESS method=GetDataFromMarginFeesTable.verifyMarginFeesTableBaseCurrency(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mychallenge.uitests.GetDataFromMarginFeesTable@4566e5bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.mychallenge.uitests.GetDataFromMarginFeesTable -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
