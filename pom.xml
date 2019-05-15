@@ -1,16 +1,16 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.mychallenge</groupId>
-  <artifactId>uitest</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>UI Test Automation</name>
-  <description>UI Test Automation Using Selenium WebDriver and TestNG</description>
-  	<properties>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.mychallenge</groupId>
+	<artifactId>uitest</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>UI Test Automation</name>
+	<description>UI Test Automation Using Selenium WebDriver and TestNG</description>
+	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<build>
 		<plugins>
-			
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
@@ -83,31 +83,31 @@
 				</executions>
 			</plugin>
 			<plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-clean-plugin</artifactId>
-            <version>3.1.0</version>        	
-            	<executions>
-          			<execution>
-            			<id>auto-clean</id>
-            			<phase>test</phase>
-            			<goals>
-              				<goal>clean</goal>
-           				 </goals>
-           				 <configuration>
-           				 	<excludeDefaultDirectories>true</excludeDefaultDirectories>
-			                <filesets>
-			                    <fileset>
-			                        <directory>${basedir}/printscreen</directory>
-			                        <includes>
-			                            <include>*.png</include>
-			                        </includes>
-			                        <followSymlinks>false</followSymlinks>
-			                    </fileset>
-			                </filesets>
-			                </configuration>
-         	 		</execution>
-        		</executions>        		            
-        	</plugin>			
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-clean-plugin</artifactId>
+				<version>3.1.0</version>
+				<executions>
+					<execution>
+						<id>auto-clean</id>
+						<phase>test</phase>
+						<goals>
+							<goal>clean</goal>
+						</goals>
+						<configuration>
+							<excludeDefaultDirectories>true</excludeDefaultDirectories>
+							<filesets>
+								<fileset>
+									<directory>${basedir}/printscreen</directory>
+									<includes>
+										<include>*.png</include>
+									</includes>
+									<followSymlinks>false</followSymlinks>
+								</fileset>
+							</filesets>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
 		</plugins>
 	</build>
 	<dependencies>
@@ -132,11 +132,6 @@
 			<scope>test</scope>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/groovy/groovy-all -->
-		<dependency>
-			<groupId>groovy</groupId>
-			<artifactId>groovy-all</artifactId>
-			<version>1.0</version>
-		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
 		<dependency>
 			<groupId>com.google.code.gson</groupId>
@@ -155,13 +150,13 @@
 			<groupId>io.rest-assured</groupId>
 			<artifactId>json-path</artifactId>
 			<version>3.2.0</version>
-		</dependency>	
+		</dependency>
 		<!-- https://mvnrepository.com/artifact/io.rest-assured/json-schema-validator -->
 		<dependency>
 			<groupId>io.rest-assured</groupId>
 			<artifactId>json-schema-validator</artifactId>
 			<version>3.2.0</version>
-		</dependency>	
+		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
 		<dependency>
 			<groupId>com.googlecode.json-simple</groupId>
