@@ -2,53 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="My Test Suite" duration-ms="26968" started-at="2019-05-15T02:15:29Z" finished-at="2019-05-15T02:15:56Z">
+  <suite name="My Test Suite" duration-ms="29504" started-at="2019-05-15T02:19:24Z" finished-at="2019-05-15T02:19:54Z">
     <groups>
     </groups>
-    <test name="test group 2" duration-ms="14496" started-at="2019-05-15T02:15:29Z" finished-at="2019-05-15T02:15:44Z">
-      <class name="com.mychallenge.uitests.SelectItemFromPullDownMenu">
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.mychallenge.uitests.SelectItemFromPullDownMenu@22bd2039]" name="beforeMethod" is-config="true" duration-ms="9928" started-at="2019-05-15T02:15:30Z" finished-at="2019-05-15T02:15:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chromeRemote]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="selectFundingOptionsLinkFromFeaturesMenu(java.lang.String)[pri:0, instance:com.mychallenge.uitests.SelectItemFromPullDownMenu@22bd2039]" name="selectFundingOptionsLinkFromFeaturesMenu" duration-ms="3130" started-at="2019-05-15T02:15:40Z" description="Test to validate user can navigate to Funding Options page by selecting page link from Features menu" data-provider="dataProvider" finished-at="2019-05-15T02:15:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Funding Options]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectFundingOptionsLinkFromFeaturesMenu -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mychallenge.uitests.SelectItemFromPullDownMenu@22bd2039]" name="afterMethod" is-config="true" duration-ms="1295" started-at="2019-05-15T02:15:43Z" finished-at="2019-05-15T02:15:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=selectFundingOptionsLinkFromFeaturesMenu status=SUCCESS method=SelectItemFromPullDownMenu.selectFundingOptionsLinkFromFeaturesMenu(java.lang.String)[pri:0, instance:com.mychallenge.uitests.SelectItemFromPullDownMenu@22bd2039] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- com.mychallenge.uitests.SelectItemFromPullDownMenu -->
-    </test> <!-- test group 2 -->
-    <test name="test group 3" duration-ms="14586" started-at="2019-05-15T02:15:29Z" finished-at="2019-05-15T02:15:44Z">
+    <test name="test group 3" duration-ms="14854" started-at="2019-05-15T02:19:24Z" finished-at="2019-05-15T02:19:39Z">
       <class name="com.mychallenge.uitests.GetDataFromMarginFeesTable">
-        <test-method status="PASS" signature="beforSuite()[pri:0, instance:com.mychallenge.uitests.GetDataFromMarginFeesTable@5327a06e]" name="beforSuite" is-config="true" duration-ms="10" started-at="2019-05-15T02:15:29Z" finished-at="2019-05-15T02:15:29Z">
+        <test-method status="PASS" signature="beforSuite()[pri:0, instance:com.mychallenge.uitests.GetDataFromMarginFeesTable@29a4f594]" name="beforSuite" is-config="true" duration-ms="13" started-at="2019-05-15T02:19:24Z" finished-at="2019-05-15T02:19:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforSuite -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.mychallenge.uitests.GetDataFromMarginFeesTable@5327a06e]" name="beforeMethod" is-config="true" duration-ms="8430" started-at="2019-05-15T02:15:30Z" finished-at="2019-05-15T02:15:38Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.mychallenge.uitests.GetDataFromMarginFeesTable@29a4f594]" name="beforeMethod" is-config="true" duration-ms="9111" started-at="2019-05-15T02:19:24Z" finished-at="2019-05-15T02:19:34Z">
           <params>
             <param index="0">
               <value>
@@ -59,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifyMarginFeesTableBaseCurrency(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mychallenge.uitests.GetDataFromMarginFeesTable@5327a06e]" name="verifyMarginFeesTableBaseCurrency" duration-ms="4171" started-at="2019-05-15T02:15:38Z" description="Test to validate that user can navigate to the Fee Schedule page, and retrieve data from the Margin Fees table" data-provider="dataProvider" finished-at="2019-05-15T02:15:42Z">
+        <test-method status="PASS" signature="verifyMarginFeesTableBaseCurrency(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mychallenge.uitests.GetDataFromMarginFeesTable@29a4f594]" name="verifyMarginFeesTableBaseCurrency" duration-ms="4368" started-at="2019-05-15T02:19:34Z" description="Test to validate that user can navigate to the Fee Schedule page, and retrieve data from the Margin Fees table" data-provider="dataProvider" finished-at="2019-05-15T02:19:38Z">
           <params>
             <param index="0">
               <value>
@@ -105,11 +68,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMarginFeesTableBaseCurrency -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mychallenge.uitests.GetDataFromMarginFeesTable@5327a06e]" name="afterMethod" is-config="true" duration-ms="1842" started-at="2019-05-15T02:15:42Z" finished-at="2019-05-15T02:15:44Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mychallenge.uitests.GetDataFromMarginFeesTable@29a4f594]" name="afterMethod" is-config="true" duration-ms="1137" started-at="2019-05-15T02:19:38Z" finished-at="2019-05-15T02:19:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyMarginFeesTableBaseCurrency status=SUCCESS method=GetDataFromMarginFeesTable.verifyMarginFeesTableBaseCurrency(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mychallenge.uitests.GetDataFromMarginFeesTable@5327a06e] output={null}]]]>
+                <![CDATA[[TestResult name=verifyMarginFeesTableBaseCurrency status=SUCCESS method=GetDataFromMarginFeesTable.verifyMarginFeesTableBaseCurrency(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mychallenge.uitests.GetDataFromMarginFeesTable@29a4f594] output={null}]]]>
               </value>
             </param>
           </params>
@@ -118,9 +81,9 @@
         </test-method> <!-- afterMethod -->
       </class> <!-- com.mychallenge.uitests.GetDataFromMarginFeesTable -->
     </test> <!-- test group 3 -->
-    <test name="test group 1" duration-ms="26968" started-at="2019-05-15T02:15:29Z" finished-at="2019-05-15T02:15:56Z">
-      <class name="com.mychallenge.uitests.FillOutForm">
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.mychallenge.uitests.FillOutForm@74ad8d05]" name="beforeMethod" is-config="true" duration-ms="8559" started-at="2019-05-15T02:15:30Z" finished-at="2019-05-15T02:15:38Z">
+    <test name="test group 2" duration-ms="15193" started-at="2019-05-15T02:19:24Z" finished-at="2019-05-15T02:19:39Z">
+      <class name="com.mychallenge.uitests.SelectItemFromPullDownMenu">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.mychallenge.uitests.SelectItemFromPullDownMenu@4930539b]" name="beforeMethod" is-config="true" duration-ms="8634" started-at="2019-05-15T02:19:24Z" finished-at="2019-05-15T02:19:33Z">
           <params>
             <param index="0">
               <value>
@@ -131,7 +94,44 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="fillOutGeneralForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mychallenge.uitests.FillOutForm@74ad8d05]" name="fillOutGeneralForm" duration-ms="17047" started-at="2019-05-15T02:15:38Z" description="Test to validate that user can navigate to submit a request pageand fill out general form and submit" data-provider="dataProvider" finished-at="2019-05-15T02:15:55Z">
+        <test-method status="PASS" signature="selectFundingOptionsLinkFromFeaturesMenu(java.lang.String)[pri:0, instance:com.mychallenge.uitests.SelectItemFromPullDownMenu@4930539b]" name="selectFundingOptionsLinkFromFeaturesMenu" duration-ms="4115" started-at="2019-05-15T02:19:33Z" description="Test to validate user can navigate to Funding Options page by selecting page link from Features menu" data-provider="dataProvider" finished-at="2019-05-15T02:19:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Funding Options]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFundingOptionsLinkFromFeaturesMenu -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mychallenge.uitests.SelectItemFromPullDownMenu@4930539b]" name="afterMethod" is-config="true" duration-ms="2207" started-at="2019-05-15T02:19:37Z" finished-at="2019-05-15T02:19:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectFundingOptionsLinkFromFeaturesMenu status=SUCCESS method=SelectItemFromPullDownMenu.selectFundingOptionsLinkFromFeaturesMenu(java.lang.String)[pri:0, instance:com.mychallenge.uitests.SelectItemFromPullDownMenu@4930539b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.mychallenge.uitests.SelectItemFromPullDownMenu -->
+    </test> <!-- test group 2 -->
+    <test name="test group 1" duration-ms="29504" started-at="2019-05-15T02:19:24Z" finished-at="2019-05-15T02:19:54Z">
+      <class name="com.mychallenge.uitests.FillOutForm">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.mychallenge.uitests.FillOutForm@4ed38226]" name="beforeMethod" is-config="true" duration-ms="8484" started-at="2019-05-15T02:19:24Z" finished-at="2019-05-15T02:19:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromeRemote]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="fillOutGeneralForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mychallenge.uitests.FillOutForm@4ed38226]" name="fillOutGeneralForm" duration-ms="19513" started-at="2019-05-15T02:19:33Z" description="Test to validate that user can navigate to submit a request pageand fill out general form and submit" data-provider="dataProvider" finished-at="2019-05-15T02:19:52Z">
           <params>
             <param index="0">
               <value>
@@ -174,8 +174,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'rasta', ip: '192.168.1.90', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\Rastamon\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50866}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
-Session ID: 7de99fe0130bbe44ad4dfd36ef6909fc
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\Rastamon\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50995}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
+Session ID: af19453642362ac356262f1e0f5d0103
 *** Element info: {Using=xpath, value=//span[@class='notification-text']}]]>
             </message>
             <full-stacktrace>
@@ -187,8 +187,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'rasta', ip: '192.168.1.90', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\Rastamon\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50866}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
-Session ID: 7de99fe0130bbe44ad4dfd36ef6909fc
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\Rastamon\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50995}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
+Session ID: af19453642362ac356262f1e0f5d0103
 *** Element info: {Using=xpath, value=//span[@class='notification-text']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -236,11 +236,11 @@ at java.lang.Thread.run(Thread.java:745)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillOutGeneralForm -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mychallenge.uitests.FillOutForm@74ad8d05]" name="afterMethod" is-config="true" duration-ms="1220" started-at="2019-05-15T02:15:55Z" finished-at="2019-05-15T02:15:56Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mychallenge.uitests.FillOutForm@4ed38226]" name="afterMethod" is-config="true" duration-ms="1269" started-at="2019-05-15T02:19:52Z" finished-at="2019-05-15T02:19:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=fillOutGeneralForm status=FAILURE method=FillOutForm.fillOutGeneralForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mychallenge.uitests.FillOutForm@74ad8d05] output={null}]]]>
+                <![CDATA[[TestResult name=fillOutGeneralForm status=FAILURE method=FillOutForm.fillOutGeneralForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mychallenge.uitests.FillOutForm@4ed38226] output={null}]]]>
               </value>
             </param>
           </params>
