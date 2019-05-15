@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [My Test Suite]" parallel="tests">
+  <test thread-count="3" verbose="0" name="test group 1(failed)" parallel="tests">
+    <parameter name="browserRemote" value="chromeRemote"/>
+    <classes>
+      <class name="com.mychallenge.uitests.FillOutForm">
+        <methods>
+          <include name="beforSuite"/>
+          <include name="fillOutGeneralForm" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.mychallenge.uitests.FillOutForm -->
+    </classes>
+  </test> <!-- test group 1(failed) -->
+</suite> <!-- Failed suite [My Test Suite] -->

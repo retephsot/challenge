@@ -5,7 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>UI Test Automation</name>
   <description>UI Test Automation Using Selenium WebDriver and TestNG</description>
-  <properties>
+  	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<build>

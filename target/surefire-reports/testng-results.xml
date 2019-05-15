@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My Test Suite" duration-ms="12075" started-at="2019-05-15T02:04:39Z" finished-at="2019-05-15T02:04:51Z">
+    <groups>
+    </groups>
+    <test name="test group 2" duration-ms="11400" started-at="2019-05-15T02:04:39Z" finished-at="2019-05-15T02:04:51Z">
+      <class name="com.mychallenge.uitests.SelectItemFromPullDownMenu">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.mychallenge.uitests.SelectItemFromPullDownMenu@73044cdf]" name="beforeMethod" is-config="true" duration-ms="7555" started-at="2019-05-15T02:04:39Z" finished-at="2019-05-15T02:04:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromeRemote]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="selectFundingOptionsLinkFromFeaturesMenu(java.lang.String)[pri:0, instance:com.mychallenge.uitests.SelectItemFromPullDownMenu@73044cdf]" name="selectFundingOptionsLinkFromFeaturesMenu" duration-ms="2767" started-at="2019-05-15T02:04:47Z" description="Test to validate user can navigate to Funding Options page by selecting page link from Features menu" data-provider="dataProvider" finished-at="2019-05-15T02:04:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Funding Options]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFundingOptionsLinkFromFeaturesMenu -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mychallenge.uitests.SelectItemFromPullDownMenu@73044cdf]" name="afterMethod" is-config="true" duration-ms="908" started-at="2019-05-15T02:04:50Z" finished-at="2019-05-15T02:04:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectFundingOptionsLinkFromFeaturesMenu status=SUCCESS method=SelectItemFromPullDownMenu.selectFundingOptionsLinkFromFeaturesMenu(java.lang.String)[pri:0, instance:com.mychallenge.uitests.SelectItemFromPullDownMenu@73044cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.mychallenge.uitests.SelectItemFromPullDownMenu -->
+    </test> <!-- test group 2 -->
+    <test name="test group 3" duration-ms="12075" started-at="2019-05-15T02:04:39Z" finished-at="2019-05-15T02:04:51Z">
+      <class name="com.mychallenge.uitests.GetDataFromMarginFeesTable">
+        <test-method status="PASS" signature="beforSuite()[pri:0, instance:com.mychallenge.uitests.GetDataFromMarginFeesTable@59546cfe]" name="beforSuite" is-config="true" duration-ms="14" started-at="2019-05-15T02:04:39Z" finished-at="2019-05-15T02:04:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforSuite -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.mychallenge.uitests.GetDataFromMarginFeesTable@59546cfe]" name="beforeMethod" is-config="true" duration-ms="8386" started-at="2019-05-15T02:04:39Z" finished-at="2019-05-15T02:04:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromeRemote]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyMarginFeesTableBaseCurrency(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mychallenge.uitests.GetDataFromMarginFeesTable@59546cfe]" name="verifyMarginFeesTableBaseCurrency" duration-ms="2838" started-at="2019-05-15T02:04:48Z" description="Test to validate that user can navigate to the Fee Schedule page, and retrieve data from the Margin Fees table" data-provider="dataProvider" finished-at="2019-05-15T02:04:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[XBT (Bitcoin)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[USDT (Tether)]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[BCH (Bitcoin Cash)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ETH (Ethereum)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ETC (Ethereum Classic)]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[REP (Augur)]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[XMR (Monero)]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[XRP (Ripple)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMarginFeesTableBaseCurrency -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mychallenge.uitests.GetDataFromMarginFeesTable@59546cfe]" name="afterMethod" is-config="true" duration-ms="690" started-at="2019-05-15T02:04:51Z" finished-at="2019-05-15T02:04:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMarginFeesTableBaseCurrency status=SUCCESS method=GetDataFromMarginFeesTable.verifyMarginFeesTableBaseCurrency(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mychallenge.uitests.GetDataFromMarginFeesTable@59546cfe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.mychallenge.uitests.GetDataFromMarginFeesTable -->
+    </test> <!-- test group 3 -->
+  </suite> <!-- My Test Suite -->
+</testng-results>
