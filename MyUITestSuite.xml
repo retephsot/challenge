@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="My Test Suite" parallel="tests" thread-count="2">
+<suite name="My Test Suite" parallel="tests" thread-count="3">
     <test name="test group 1" preserve-order="true">  
     	<parameter name="browserRemote" value="chromeRemote"/>	
         <classes>

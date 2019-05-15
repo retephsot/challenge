@@ -5,34 +5,12 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>UI Test Automation</name>
   <description>UI Test Automation Using Selenium WebDriver and TestNG</description>
-  <properties>
+  	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<build>
 		<plugins>
-			<plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-clean-plugin</artifactId>
-            <version>2.5</version>
-            <configuration>
-                <filesets>
-                    <fileset>
-                        <directory>${basedir}/printscreen</directory>
-                        <includes>
-                            <include>*.png</include>
-                        </includes>
-                        <followSymlinks>false</followSymlinks>
-                    </fileset>
-                    <fileset>
-                        <directory>${basedir}/target</directory>
-                        <includes>
-                            <include>//surefire-reports//</include>
-                        </includes>
-                        <followSymlinks>false</followSymlinks>
-                    </fileset>
-                </filesets>
-            </configuration>
-        	</plugin>
+			
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
@@ -103,7 +81,33 @@
 						</configuration>
 					</execution>
 				</executions>
-			</plugin>			
+			</plugin>
+			<plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-clean-plugin</artifactId>
+            <version>3.1.0</version>        	
+            	<executions>
+          			<execution>
+            			<id>auto-clean</id>
+            			<phase>test</phase>
+            			<goals>
+              				<goal>clean</goal>
+           				 </goals>
+           				 <configuration>
+           				 	<excludeDefaultDirectories>true</excludeDefaultDirectories>
+			                <filesets>
+			                    <fileset>
+			                        <directory>${basedir}/printscreen</directory>
+			                        <includes>
+			                            <include>*.png</include>
+			                        </includes>
+			                        <followSymlinks>false</followSymlinks>
+			                    </fileset>
+			                </filesets>
+			                </configuration>
+         	 		</execution>
+        		</executions>        		            
+        	</plugin>			
 		</plugins>
 	</build>
 	<dependencies>

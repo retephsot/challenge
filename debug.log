@@ -1,0 +1,3 @@
+[0513/221736.897:ERROR:file_io_win.cc(161)] CreateFile C:\Users\Rastamon\AppData\Local\Temp\scoped_dir46564_1624\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0513/221736.899:ERROR:file_io_win.cc(170)] CreateFile C:\Users\Rastamon\AppData\Local\Temp\scoped_dir46564_1624\Crashpad\reports\4cad2258-defb-4c2e-8649-55c73feb50d3.dmp: The system cannot find the path specified. (0x3)
+[0513/221736.899:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
