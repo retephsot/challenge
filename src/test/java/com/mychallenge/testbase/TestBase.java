@@ -10,11 +10,14 @@ import java.text.ParseException;
 import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.DataProvider;
@@ -31,17 +34,18 @@ public class TestBase {
 	protected WebDriver driver;
 	protected LandingPage landingpage;
 	protected static Properties testConfig;
+	protected static Logger LOGGER = null;
 	public String baseUrl;
 	
 	@BeforeSuite()
 	public void beforSuite() throws FileNotFoundException, IOException {
 		testConfig = new Properties();
 		testConfig.load(new FileInputStream("UITestConfig.properties"));
-		
+		System.setProperty("log4j.configurationFile","log4j2Config.xml");
+        LOGGER = LogManager.getLogger();
 	}
 
-	@BeforeMethod
-	
+	@BeforeMethod	
 	@Parameters({"browserRemote"})
 	
 	  public void beforeMethod(@Optional String browserRemote) throws MalformedURLException, InstantiationException, IllegalAccessException
