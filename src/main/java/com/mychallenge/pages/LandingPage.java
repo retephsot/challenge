@@ -23,6 +23,7 @@ public class LandingPage extends PageBase {
 	public FeaturesDropDownMenu openFeaturesMenu() {
 		SeleniumMethods sel = new SeleniumMethods(driver);
 		Waits wait = new Waits(driver);
+		LOGGER.info("Hovering over Features link");
 		sel.actionsMoveToElementBy(LandingPageLocators.FEATURES_LINK_X);		
 		return new FeaturesDropDownMenu(driver);		
 	}
@@ -38,6 +39,7 @@ public class LandingPage extends PageBase {
 		SeleniumMethods sel = new SeleniumMethods(driver);
 		WindowsHandler wh = new WindowsHandler(driver);
 		sel.selClickBy(LandingPageLocators.SUPPORT_LINK_X);
+		LOGGER.info("switching to new window");
 		wh.switchToNewWindow();
 		return new SupportPage(driver);
 	}

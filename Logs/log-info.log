@@ -1,0 +1,9 @@
+21:31:58.324 [main] INFO  com.mychallenge.pagebase.PageBase - Hovering over Features link
+21:32:00.279 [main] INFO  com.mychallenge.pagebase.PageBase - Verifying expected value displays
+21:46:56.240 [TestNG-tests-2] INFO  com.mychallenge.util.WebDriverSetUp - Opening Chrome Driver
+21:46:56.240 [TestNG-tests-1] INFO  com.mychallenge.util.WebDriverSetUp - Opening Chrome Driver
+21:46:56.240 [TestNG-tests-3] INFO  com.mychallenge.util.WebDriverSetUp - Opening Chrome Driver
+21:47:07.975 [TestNG-tests-2] INFO  com.mychallenge.pagebase.PageBase - Hovering over Features link
+21:47:08.201 [TestNG-tests-3] INFO  com.mychallenge.pagebase.PageBase - Hovering over Features link
+21:47:11.037 [TestNG-tests-3] INFO  com.mychallenge.pagebase.PageBase - Verifying expected value displays
+21:47:12.745 [TestNG-tests-1] INFO  com.mychallenge.pagebase.PageBase - switching to new window

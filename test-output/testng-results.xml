@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10025" started-at="2019-05-09T13:04:43Z" finished-at="2019-05-09T13:04:53Z">
+  <suite name="Default suite" duration-ms="11691" started-at="2019-05-17T01:31:49Z" finished-at="2019-05-17T01:32:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10025" started-at="2019-05-09T13:04:43Z" finished-at="2019-05-09T13:04:53Z">
+    <test name="Default test" duration-ms="11691" started-at="2019-05-17T01:31:49Z" finished-at="2019-05-17T01:32:01Z">
       <class name="com.mychallenge.uitests.GetDataFromMarginFeesTable">
-        <test-method status="PASS" signature="beforSuite()[pri:0, instance:com.mychallenge.uitests.GetDataFromMarginFeesTable@4566e5bd]" name="beforSuite" is-config="true" duration-ms="24" started-at="2019-05-09T13:04:43Z" finished-at="2019-05-09T13:04:43Z">
+        <test-method status="PASS" signature="beforSuite()[pri:0, instance:com.mychallenge.uitests.GetDataFromMarginFeesTable@4566e5bd]" name="beforSuite" is-config="true" duration-ms="1240" started-at="2019-05-17T01:31:48Z" finished-at="2019-05-17T01:31:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforSuite -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.mychallenge.uitests.GetDataFromMarginFeesTable@4566e5bd]" name="beforeMethod" is-config="true" duration-ms="6679" started-at="2019-05-09T13:04:43Z" finished-at="2019-05-09T13:04:50Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.mychallenge.uitests.GetDataFromMarginFeesTable@4566e5bd]" name="beforeMethod" is-config="true" duration-ms="8660" started-at="2019-05-17T01:31:49Z" finished-at="2019-05-17T01:31:58Z">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -20,7 +20,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifyMarginFeesTableBaseCurrency(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mychallenge.uitests.GetDataFromMarginFeesTable@4566e5bd]" name="verifyMarginFeesTableBaseCurrency" duration-ms="2503" started-at="2019-05-09T13:04:50Z" description="Test to validate that user can navigate to the Fee Schedule page, and retrieve data from the Margin Fees table" data-provider="dataProvider" finished-at="2019-05-09T13:04:52Z">
+        <test-method status="PASS" signature="verifyMarginFeesTableBaseCurrency(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mychallenge.uitests.GetDataFromMarginFeesTable@4566e5bd]" name="verifyMarginFeesTableBaseCurrency" duration-ms="2237" started-at="2019-05-17T01:31:58Z" description="Test to validate that user can navigate to the Fee Schedule page, and retrieve data from the Margin Fees table" data-provider="dataProvider" finished-at="2019-05-17T01:32:00Z">
           <params>
             <param index="0">
               <value>
@@ -66,7 +66,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMarginFeesTableBaseCurrency -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mychallenge.uitests.GetDataFromMarginFeesTable@4566e5bd]" name="afterMethod" is-config="true" duration-ms="744" started-at="2019-05-09T13:04:52Z" finished-at="2019-05-09T13:04:53Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mychallenge.uitests.GetDataFromMarginFeesTable@4566e5bd]" name="afterMethod" is-config="true" duration-ms="727" started-at="2019-05-17T01:32:00Z" finished-at="2019-05-17T01:32:01Z">
           <params>
             <param index="0">
               <value>

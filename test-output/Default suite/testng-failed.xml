@@ -6,7 +6,7 @@
       <class name="com.mychallenge.uitests.GetDataFromMarginFeesTable">
         <methods>
           <include name="beforSuite"/>
-          <include name="beforeMethod"/>
+          <include name="setUpLogger"/>
           <include name="verifyMarginFeesTableBaseCurrency" invocation-numbers="0"/>
           <include name="afterMethod"/>
         </methods>

@@ -27,6 +27,7 @@ public class Validation extends PageBase {
 	public void verifyTableData(By locator, List<String> assertList) {
 		
 		int count = driver.findElements(locator).size();
+		LOGGER.info("Verifying expected value displays");
 		for(int i = 1; i<= count; ++i) {
 			Assert.assertTrue(assertList.contains(driver.findElement(By.xpath("//div[@class='tab displayed']//tbody//tr["+i+"]/td[1]")).getText()), ""
 					+ "Unexpected data is present --> Assertion Failed");
